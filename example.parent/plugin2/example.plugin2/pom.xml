@@ -5,8 +5,9 @@
 		<groupId>example</groupId>
 		<artifactId>example.parent</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../..</relativePath>
 	</parent>
-	<artifactId>example.plugin1.tests</artifactId>
-	<packaging>eclipse-test-plugin</packaging>
+	<artifactId>example.plugin2</artifactId>
+	<packaging>eclipse-plugin</packaging>
 
 </project>
